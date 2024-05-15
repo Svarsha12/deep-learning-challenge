@@ -1,3 +1,8 @@
+## Files 
+There are two jupyter files. 
+Alphabetsoupcharity_Optimizer.ipynb is ran in google colab and AlphabetSoupCharity.ipynb is ran in my local jupyter notebook. You can find the deep-learning model report for the charity in the Report.md file.I 
+tried export the result in my_model.h5 from the AlphabetSoupCharity.ipynb, but the file is binary.
+
 ## Background
 
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. 
@@ -31,7 +36,7 @@ Check the structure of the model.
 Compile and train the model.
 Create a callback that saves the model's weights every five epochs.
 Evaluate the model using the test data to determine the loss and accuracy.
-Saved and exported results to an HDF5 file- AlphabetSoupCharity.h5.
+Saved and exported results to an HDF5 file- AlphabetSoupCharity.h5 model ran in the google colab Alphabetsoupcharity_Optimizer.ipynb. But for jupyter note book file which is AlphabetSoupCharity.ipynb. I tried to export the file to my_model.h5, result could not be exported as the file was binary.
 
 ## Step 3: Optimize the Model
 
@@ -71,6 +76,6 @@ I am able to achieve target model performance. For more accurate result my sugge
 The overall results of the deep learning model- Loss: 0.5555146336555481, Accuracy: 0.723498523235321. 
 It is clear that there is room for improvement to reach the target accuracy of 90%. 
 This suggests that while the model is able to learn from the data to some extent, it is not capturing the complexity or patterns sufficiently to reach the desired performance.  
-The reported loss value indicates that there is still significant error in the predictions made by the model. To enhance the model's performance, 
+The reported loss value indicates that there is still significant error in the predictions made by the model.  To optimize model I added more neurons to a hidden layer.Added more hidden layers.increasing the number of values for each bin. Still I got the samre result.To enhance the model's performance, 
 there  are  alternative approach like Convolutional Neural Networks (CNNs). Different approach are for different types of data, like CNNs is for image or video recognition.
-The model Fully Connected Neural Networks (FCNNs) we used is for structured/tabular data. So this is the best approach for deep learning model.
+The model Fully Connected Neural Networks (FCNNs) we used is for structured/tabular data. So this is the best approach for deep learning model. 

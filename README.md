@@ -1,6 +1,6 @@
 ## Files 
 There are two jupyter files. 
-Alphabetsoupcharity_Optimizer.ipynb is ran in google colab and AlphabetSoupCharity.ipynb is ran in my local jupyter notebook. You can find the deep-learning model report for the charity in the Report.md file.I 
+Alphabetsoupcharity_Optimizer.ipynb is ran in google colab and AlphabetSoupCharity.ipynb is ran in my local jupyter notebook. You can find the deep-learning model report for the charity in the Model-report.md file.I 
 tried export the result in my_model.h5 from the AlphabetSoupCharity.ipynb, but the file is binary.
 
 ## Background
